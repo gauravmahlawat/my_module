@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\mymodule\Form;
+namespace Drupal\my_module\Form;
 
 use Drupal\Core\Database\Database;
 use Drupal\Core\Form\Formbase;
