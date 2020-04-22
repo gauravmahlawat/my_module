@@ -1,7 +1,0 @@
-my_module.form:
-  path: '/my_module'
-  defaults:
-    _form: '\Drupal\my_module\Form\MyModuleForm'
-    _title: 'Nodes'
-  requirements:
-    _permission: 'access content'
