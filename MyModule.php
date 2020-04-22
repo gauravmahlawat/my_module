@@ -22,8 +22,6 @@ class MyModuleForm extends FormBase {
     */
   public function buildForm(array $form, FormStateInterface $form_state){
     $list = array(0 => 'Select' , 1 => 'Article' , 2 => 'Basic page');
-    $node = \Drupal::routeMatch()->getParameter('node');
-    $nid = $node->nid->value;
     $form['NODES'] = array(
       '#title' => t('Enter the number'),
       '#type' => 'number',
