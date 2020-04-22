@@ -1,4 +1,4 @@
-name: mymodule
+name: My_Module
 type: module
 description: 'This is my first Drupal8 module.'
 package: Custom
